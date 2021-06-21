@@ -6,12 +6,22 @@ site: distill::distill_website
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggthemes)
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+```
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
+```{r car-plot}
+mtcars %>%
+  select(mpg, wt) %>%
+  ggplot(mapping = aes(x = wt, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
+  theme_clean() +
+  labs(title = "Weight and MPG in Cars",
+       subtitle = "The heavier a car was, the lower the MPG was.",
+       x = "Weight (in thousands of lbs)",
+       y = "Miles per Gallon",
+       caption = "Henderson and Vellerman (1981)")
 ```
 
