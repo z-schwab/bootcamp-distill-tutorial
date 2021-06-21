@@ -3,6 +3,18 @@ title: "About this site"
 description: |
   Some additional details about the website
 ---
+## **About Me**.
+##### My name is **Z**. I am a 15 year old student from Massachusetts, America. I like long walks on the beach. In fact, I hate it when people beg me to stop after only 2 hours. Bring a tent.
+#### "This is data science."  
+##### ~ Preceptor
+##### ["Kane's Free High School Data Science Bootcamp"](https://bootcamp.davidkane.info)
+## **About the Project**
+##### Title: *The Title Of My Project* explores...
+##### Description:
+### **Goals**
+* To show how actual data supports or doesn't support common assumptions
+   + I can't find the data I want
+* To practice analyzing data and creating a finished product
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

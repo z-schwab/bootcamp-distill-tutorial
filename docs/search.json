@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-06-21T12:21:06-04:00"
+      "contents": "\nAbout Me.\nMy name is Z. I am a 15 year old student from Massachusetts, America. I like long walks on the beach. In fact, I hate it when people beg me to stop after only 2 hours. Bring a tent.\n“This is data science.”\n~ Preceptor\n“Kane’s Free High School Data Science Bootcamp”\nAbout the Project\nTitle: The Title Of My Project explores…\nDescription:\nGoals\nTo show how actual data supports or doesn’t support common assumptions\nI can’t find the data I want\n\nTo practice analyzing data and creating a finished product\n\n\n\n",
+      "last_modified": "2021-06-21T12:43:53-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "This is where I will describe my final project.",
       "author": [],
       "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2021-06-21T12:21:13-04:00"
+      "last_modified": "2021-06-21T12:44:00-04:00"
     }
   ],
   "collections": []
